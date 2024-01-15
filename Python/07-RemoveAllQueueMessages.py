@@ -7,7 +7,7 @@ import boto3
 
 SQS_ENDPOINT_URL = "http://localhost:8100"
 
-QUEUE_URL = f"{SQS_ENDPOINT_URL}/queue/msg_queue"
+QUEUE_URL = f"{SQS_ENDPOINT_URL}/queue/test-queue"
 
 sqs = boto3.client(
     "sqs",
